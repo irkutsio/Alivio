@@ -1,0 +1,45 @@
+:root {
+  --acent-color: #01996d;
+  --background-color: #245852;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+a,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+p + p {
+  margin-top: 1em;
+}
+
+img,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
